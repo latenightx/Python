@@ -73,10 +73,10 @@ def game():
 				printTTT(Grid)
 				print(player, " Has Won!!")
 				break
-			elif count>8:
-				printTTT(Grid)
-				print("****TIE****")
-				break
+		if count>8:
+			printTTT(Grid)
+			print("****TIE****")
+			break
 		if player=='O':
 			player='X'
 		else:
