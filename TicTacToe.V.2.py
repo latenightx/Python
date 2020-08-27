@@ -118,3 +118,10 @@ while True:
 		continue
 		
 
+# TikTacToe v2 made by Zaid and Shoaib
+# What's New?
+# 1) Try again bug fix:
+#        - The code now can be run n number of times.
+#        - Gives  alert warning when invalid input is entered.
+# 2) Enhanced user friendly instructions. 
+# 3) Code simplified.
