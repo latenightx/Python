@@ -51,7 +51,6 @@ def printTTT(a):
 #    |X|
 #   -+-+-
 #    | |
-The updated structure
    
    #       |     |	 
    #    X  |     |  O
