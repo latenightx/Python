@@ -1,4 +1,4 @@
-Grid={'9':' ', '8':' ', '7':' ','6':' ','5':' ','4':' ','3':' ','2':' ','1':' '}
+Grid={'7':' ', '8':' ', '9':' ','4':' ','5':' ','6':' ','1':' ','2':' ','3':' '}
 # print(Grid)
  
 def s(x=1,y=1):
@@ -67,11 +67,17 @@ def game():
 
 	while True:
 		player=input(' Choose X or O: ')
-		if player!='O' and player!='X':
+		if player!='O' and player!='o' and player!='X' and player!='x':
 			print(" Invalid Input,Try Again")
 			continue
 		else:
 			break
+	
+	if player=='x':
+		player='X'
+
+	if player=='o':
+		player='O'
 	count=0
 	while True:
 		
@@ -157,4 +163,5 @@ while True:
 #   CHOOSE YOUR OWN CHARACTER!
 
 
-#Made By Zaid, Mesum, Kiranmayi and Shoaib!
+#Made By Zaid, Saif, Mesum, Kiranmayi and Shoaib!
+ 
